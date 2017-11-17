@@ -1,3 +1,4 @@
+<<<<<<< 6786a3b437b294866a216dbc77351f362b323890
 # Logs
 logs
 *.log
@@ -57,3 +58,18 @@ typings/
 # dotenv environment variables file
 .env
 
+# dependencies
+/node_modules
+
+# testing
+/coverage
+
+# production
+/build
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
