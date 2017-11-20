@@ -9,12 +9,14 @@ import {
 import './index.css';
 import App from './containers/App';
 import HomePage from './components/HomePage'
+import MediaGalleryPage from './containers/MediaGalleryPage'
 
 ReactDOM.render(
     <Router>
         <div>
             <App />
             <Route exact path="/" component={HomePage} />
+            <Route exact path="/library" component={MediaGalleryPage} />
         </div>
     </Router>
     ,
